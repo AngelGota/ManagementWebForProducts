@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyect github\\Proyectos C#\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj": {}
+    "D:\\PROYECTOS_COLAB_GITHUB\\Owner\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj": {}
   },
   "projects": {
-    "E:\\Proyect github\\Proyectos C#\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj": {
+    "D:\\PROYECTOS_COLAB_GITHUB\\Owner\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyect github\\Proyectos C#\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj",
+        "projectUniqueName": "D:\\PROYECTOS_COLAB_GITHUB\\Owner\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj",
         "projectName": "ManagementWebForProducts",
-        "projectPath": "E:\\Proyect github\\Proyectos C#\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj",
-        "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyect github\\Proyectos C#\\ManagementWebForProducts\\ManagementWebForProducts\\obj\\",
+        "projectPath": "D:\\PROYECTOS_COLAB_GITHUB\\Owner\\ManagementWebForProducts\\ManagementWebForProducts\\ManagementWebForProducts.csproj",
+        "packagesPath": "C:\\Users\\gota\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS_COLAB_GITHUB\\Owner\\ManagementWebForProducts\\ManagementWebForProducts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\USUARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gota\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -43,6 +43,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -2,8 +2,10 @@
 {
     public class ProductModel
     {
-        int IdProducto { get; set; }
-        string Detalle { get; set; }
-        int Stock { get; set; }
+        int IdProduct { get; set; }
+        string NamProduct { get; set; }
+        string DesProduct { get; set; }
+        double PriProduct { get; set; }
+        int IdCategory { get; set; }
     }
 }
